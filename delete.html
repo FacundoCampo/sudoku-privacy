@@ -2,11 +2,11 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Eliminación de Cuenta y Datos – Sudoku play</title>
+  <title>Eliminación de Cuenta y Datos – Sudoku Play</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
       background-color: #f9f9f9;
       color: #333;
       line-height: 1.6;
@@ -20,17 +20,33 @@
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
-    h1, h2 {
+    h1 {
       color: #222;
+      border-bottom: 2px solid #007AFF;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #444;
+      margin-top: 25px;
     }
     ul {
       margin-left: 20px;
     }
+    li {
+      margin-bottom: 8px;
+    }
     .email {
       font-weight: bold;
+      font-size: 1.1em;
+      color: #007AFF;
+    }
+    a {
+      color: #007AFF;
     }
     .footer {
       margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
       font-size: 0.9em;
       color: #666;
     }
@@ -39,17 +55,16 @@
 <body>
   <div class="container">
     <h1>Eliminación de Cuenta y Datos</h1>
-
     <p>
-      Esta página describe cómo los usuarios de la aplicación <strong>Sudoku play</strong>,
+      Esta página describe cómo los usuarios de la aplicación <strong>Sudoku Play</strong>,
       desarrollada por <strong>Facundo Campo</strong>, pueden solicitar la eliminación de su cuenta
       y de los datos personales asociados.
     </p>
 
     <h2>¿Quién puede solicitar la eliminación?</h2>
     <p>
-      Cualquier usuario que haya creado una cuenta en <strong>Sudoku play</strong> mediante
-      inicio de sesión (por ejemplo, Google Sign-In) puede solicitar la eliminación de su cuenta
+      Cualquier usuario que haya creado una cuenta en <strong>Sudoku Play</strong> mediante
+      inicio de sesión (Google Sign-In o Apple Sign-In) puede solicitar la eliminación de su cuenta
       y sus datos personales.
     </p>
 
@@ -58,13 +73,11 @@
       Para solicitar la eliminación de su cuenta y datos asociados, el usuario debe enviar un correo electrónico
       desde la dirección vinculada a su cuenta a:
     </p>
-
     <p class="email">📧 facundocampo100@gmail.com</p>
-
     <p>
       En el asunto del correo se recomienda indicar:
       <br>
-      <strong>“Solicitud de eliminación de cuenta – Sudoku play”</strong>
+      <strong>"Solicitud de eliminación de cuenta – Sudoku Play"</strong>
     </p>
 
     <h2>Datos que se eliminarán</h2>
@@ -75,6 +88,9 @@
       <li>Nombre de perfil (si aplica)</li>
       <li>Progreso del juego y estadísticas</li>
       <li>Monedas virtuales, niveles y logros</li>
+      <li>Historial de duelos y resultados</li>
+      <li>Lista de amigos y solicitudes de amistad</li>
+      <li>Desafíos completados</li>
       <li>Configuraciones y preferencias del juego</li>
     </ul>
 
@@ -87,18 +103,32 @@
     <h2>Plazo de eliminación</h2>
     <p>
       La eliminación de la cuenta y los datos asociados se realizará dentro de un plazo máximo de
-      <strong>30 días</strong> desde la recepción de la solicitud.
+      <strong>30 días</strong> desde la recepción de la solicitud. Recibirás una confirmación por email
+      cuando el proceso haya sido completado.
     </p>
 
     <h2>Usuarios sin cuenta</h2>
     <p>
-      Los usuarios que utilicen <strong>Sudoku play</strong> sin crear una cuenta no almacenan
+      Los usuarios que utilicen <strong>Sudoku Play</strong> sin crear una cuenta no almacenan
       datos personales en servidores. En estos casos, los datos del juego se guardan únicamente
       de forma local en el dispositivo del usuario y pueden eliminarse desinstalando la aplicación.
     </p>
 
+    <h2>Consecuencias de la eliminación</h2>
+    <p>Ten en cuenta que al eliminar tu cuenta:</p>
+    <ul>
+      <li>Perderás todo tu progreso de forma permanente</li>
+      <li>Las monedas virtuales no serán reembolsadas</li>
+      <li>No podrás recuperar la cuenta después de la eliminación</li>
+      <li>Si tienes una suscripción activa, deberás cancelarla por separado en App Store o Google Play</li>
+    </ul>
+
     <div class="footer">
-      <p>Última actualización: 21 de enero de 2026</p>
+      <p>Última actualización: 25 de enero de 2026</p>
+      <p>
+        <a href="https://facundocampo.github.io/sudoku-privacy/">Política de Privacidad</a> |
+        <a href="https://facundocampo.github.io/sudoku-privacy/terms.html">Términos de Uso</a>
+      </p>
     </div>
   </div>
 </body>
